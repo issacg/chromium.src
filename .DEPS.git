@@ -138,10 +138,9 @@ deps = {
     'src/tools/swarming_client':
         Var('git_url') + '/external/swarming.client.git@141ef86f4abf255e578320bfe6e42006c251bc39',
     'src/v8':
-         'https://github.com/rogerwang/v8.git@origin/fe3d0b2bef384711c4b3112c97629722827658ae',
-    #    Var('git_url') + '/external/v8.git@ed29eb2bdad388c1ce751d68bd4fe6f4f5a7cbc8',
+        'https://github.com/rogerwang/v8.git@fe3d0b2bef384711c4b3112c97629722827658ae',
     'src/third_party/node':
-        'https://github.com/rogerwang/node.git@origin/35f2c6d78a3c2255281da284703bffc49c83cc37',
+        'https://github.com/rogerwang/node.git@35f2c6d78a3c2255281da284703bffc49c83cc37',
     'src/content/nw':
         'https://github.com/issacg/node-webkit.git@origin/my092',
 }
